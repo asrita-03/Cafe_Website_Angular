@@ -1,0 +1,39 @@
+
+.head1{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+
+.aboutus-3{
+    height: 500px;
+    width: 100%;
+    border: 0px solid black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.aboutus-matter-3{
+    height: 480px;
+    width: 680px;
+    border: 0px solid red;
+    float: left;
+}
+.aboutus-img-2{
+    height: 480px;
+    width: 550px;
+    border: 0px solid red;
+    float: left;
+}
+.aboutus-img-2 img {
+    width: 550px;
+    height: 480px;
+    border-radius: 80%;
+    box-shadow: 10px 10px 12px grey;
+}

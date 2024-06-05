@@ -1,0 +1,43 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 17px;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: brown;
+}
+.menu-items{
+    border: 0px solid black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.item1{
+    border: 0px solid red;
+    width: 260px;
+    height: 300px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 12px grey;
+    transition: transform 1s;
+}
+.item1:hover{
+    transform: scale(1.20);
+}
+.item1 img{
+    width: 100%;
+}
+.checked{
+    color: orange;
+}
+
+.item-name p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color:firebrick;
+}
+

@@ -1,0 +1,24 @@
+<div class="container-fluid" >
+  <div class="container-fluid" >
+  <div class="row" >
+    <div class="col-lg-2 header">
+     <img [src]="logo1">
+    </div>
+  <div class="col-lg-10 header1 " >
+    <app-header></app-header>
+    <ul>
+      <li><a routerLink="home">Home</a></li>
+      <li><a routerLink="menu">Menu</a></li>
+      <li><a routerLink="aboutus">About us</a></li>
+      <li><a routerLink="onlineorder">Ordering</a></li>
+      <li><a routerLink="contactus">Contact</a></li>
+    </ul>
+  </div>
+  </div>
+  <div class="row" >
+    <div class="col-lg-12">
+      <app-activity></app-activity>
+    <router-outlet></router-outlet>
+  </div>
+  </div>
+  </div>

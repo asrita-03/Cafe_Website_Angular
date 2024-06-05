@@ -1,0 +1,33 @@
+.container-fluid{
+    width: 1280px;
+}
+.header1 ul{
+    list-style: none;
+}
+
+.header1 ul li {
+    background-color:white;
+    border: 10px solid white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.header1 ul li a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.header1 ul li a:hover{
+    color:white;
+    background-color: black;
+}
+.header img{
+    width: 180px;
+    height: 180px;
+}
